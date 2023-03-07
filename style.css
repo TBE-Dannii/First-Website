@@ -1,0 +1,231 @@
+body {
+  font-family: sans-serif;
+  margin: 0 auto;
+  max-width: 2000px;
+  background: white;
+  color: black;
+  font-size: 14px;
+}
+
+.container {
+  width: 1280px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 30px 24px;
+}
+
+header nav {
+  text-align: center;
+  display: flex;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+  line-height: 141px;
+}
+header nav ul li {
+  display: inline-block;
+  padding: 0 20px;
+}
+header nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  color: black;
+  padding-top: 20px;
+}
+
+header nav ul li#logo a {
+  display: block;
+  width: 80px;
+  height: 100px;
+  text-indent: -9999px;
+}
+#hero img {
+  position: relative;
+  top: 100px;
+}
+.mainbutton {
+  background: linear-gradient(to right, red 52%, white 48%);
+  border: 2px solid red;
+  padding: 8px 28px;
+  font-size: 18px;
+  letter-spacing: 3px;
+  white-space: nowrap;
+  font-weight: bold;
+  position: relative;
+  left: 70px;
+  bottom: 200px;
+  cursor: pointer;
+}
+.white-text {
+  color: white;
+}
+.red-text {
+  color: red;
+}
+.items {
+  text-align: center;
+  margin: 0;
+  padding: 0 30px;
+  list-style: none;
+  display: inline-block;
+  line-height: 141px;
+  position: relative;
+  bottom: 150px;
+}
+.items img {
+  position: relative;
+  top: 300px;
+}
+#identification {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  top: 180px;
+}
+
+#price {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  top: 60px;
+  color: red;
+}
+
+.video {
+  text-align: center;
+  display: block;
+  margin: ;
+  position: relative;
+  max-width: 100%;
+}
+
+.box {
+  background-color: white;
+  border: 2px solid;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
+  padding: 20%;
+  display: flex;
+  align-items: center;
+  width: 800px;
+  max-height: 400px;
+  margin: 20px auto;
+  position: relative;
+  bottom: 250px;
+}
+#name {
+  font-size: 100px;
+  font-weight: bold;
+  text-align: left;
+  position: relative;
+  bottom: 20px;
+  right: 0px;
+}
+
+#info-p {
+  font-size: 25px;
+  text-align: left;
+  position: relative;
+  bottom: 100px;
+  right: 120px;
+}
+
+#guitar {
+  width: 500px;
+  height: 1000px;
+  object-fit: cover;
+  position: relative;
+  bottom: 100px;
+  right: 200px;
+}
+.btn2 {
+  background: white;
+  border: 10px solid red;
+  padding: 8px 28px;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: red;
+  white-space: nowrap;
+  font-weight: bold;
+  position: relative;
+  top: 240px;
+  right: 580px;
+  cursor: pointer;
+}
+.bottom-image {
+  position: relative;
+  right: 350px;
+  bottom: 200px;
+}
+#article {
+  font-weight: bold;
+  text-align: left;
+  width: 340px;
+  float: left;
+  margin-right: 24px;
+  font-size: 45px;
+  position: relative;
+  bottom: 1450px;
+}
+
+.large-number {
+  font-weight: bold;
+  font-size: 54px;
+  color: red;
+  position: relative;
+  right: 250px;
+  top: 110px;
+}
+
+#article-02 {
+  color: gray;
+  font-weight: bold;
+  text-align: left;
+  width: 340px;
+  float: right;
+  margin-left: 24px;
+  font-size: 45px;
+  position: relative;
+  bottom: 1200px;
+  left: 70px;
+}
+.large-number2 {
+  font-weight: bold;
+  font-size: 54px;
+  color: gray;
+  position: relative;
+  right: 150px;
+  top: 110px;
+}
+#article-03 {
+  color: lightgray;
+  font-weight: bold;
+  text-align: left;
+  width: 340px;
+  float: left;
+  margin-right: 24px;
+  font-size: 45px;
+  position: relative;
+  bottom: 800px;
+  right: 380px;
+}
+
+.large-number3 {
+  font-weight: bold;
+  font-size: 54px;
+  color: lightgray;
+  position: relative;
+  right: 230px;
+  top: 120px;
+}
